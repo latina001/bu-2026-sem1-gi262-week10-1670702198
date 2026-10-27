@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 
 namespace MidtermExam.Prob03
 {
@@ -18,6 +19,8 @@ namespace MidtermExam.Prob03
         {
             // TODO: เขียนคำตอบแทนคำสั่ง throw ด้านล่าง
             throw new NotImplementedException();
+            Debug.Assert(root != null);
+            
         }
     }
 }
